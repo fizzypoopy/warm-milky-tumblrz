@@ -1,0 +1,42 @@
+/*GRID CONTAINER*/
+#page-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 50px;
+    row-gap: 50px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: start;
+    margin: 50px;
+}
+
+#pfp-bar {
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    width: 400px;
+}
+
+#post-container {
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    width: 500px;
+}
+
+/*PHOTO SIZING*/
+.pfp-fit {
+    width: 300px;
+}
+.media-fit {
+    width: 500px;
+}
+
+/*remove gaps btwn lines*/
+#pfp-quote {
+    padding: 0px;
+}
