@@ -40,19 +40,19 @@ body {
     grid-row-start: 1;
     grid-row-end: span 1;
     width: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
 }
 
 /*PHOTO SIZING*/
 .pfp-fit {
     width: 100%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 .media-fit {
     width: 100%;
+    display: block;
 }
 
 /*remove gaps btwn lines*/
@@ -64,4 +64,24 @@ body {
 .posts {
     background-color: rgba(255,255,255,0.8);
     box-shadow: 10px 10px rgba(0,0,0,0.3);
+    margin: 25px;
+}
+
+.top-info {
+    color: rgb(252, 154, 170);
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+hr.header {
+    border-top: 2px solid rgb(253, 127, 148);
+    width: 95%;
+}
+
+.top-info.with-image {
+    background-color: gray;
+    display:block;
+    text-align: right;
+    background-image: url("images/gray\ star\ bg.gif");
+    opacity: 0.5;
 }
