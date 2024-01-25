@@ -84,4 +84,5 @@ hr.header {
     text-align: right;
     background-image: url("images/gray\ star\ bg.gif");
     opacity: 0.5;
+    height: 30px;
 }
