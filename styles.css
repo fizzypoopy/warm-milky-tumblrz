@@ -1,3 +1,9 @@
+body {
+    background-image: url("images/watery-grid.jpg");
+    background-size: 20%;
+    background-repeat: repeat;
+}
+
 /*GRID CONTAINER*/
 #page-container {
     display: grid;
@@ -11,6 +17,8 @@
     align-content: start;
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 #pfp-bar {
@@ -18,26 +26,40 @@
     grid-column-end: span 1;
     grid-row-start: 1;
     grid-row-end: span 1;
-    width: 400px;
+    width: 350px;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 10px 10px rgba(0,0,0,0.3);
+    margin-right: 15px;
 }
 
-#post-container {
+#posts-container {
     grid-column-start: 2;
     grid-column-end: span 1;
     grid-row-start: 1;
     grid-row-end: span 1;
-    width: 500px;
+    width: 600px;
 }
 
 /*PHOTO SIZING*/
 .pfp-fit {
-    width: 300px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .media-fit {
-    width: 500px;
+    width: 100%;
 }
 
 /*remove gaps btwn lines*/
 #pfp-quote {
     padding: 0px;
+}
+
+/*POST CONTAINERS*/
+.posts {
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 10px 10px rgba(0,0,0,0.3);
 }
