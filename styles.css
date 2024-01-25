@@ -9,7 +9,8 @@
     align-items: center;
     justify-content: center;
     align-content: start;
-    padding-left: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #pfp-bar {
