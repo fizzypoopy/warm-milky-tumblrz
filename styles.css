@@ -38,7 +38,6 @@ body {
     margin-right: 15px;
     margin-left: 25px;
     padding: 25px;
-    position: -webkit-sticky; /*Safari*/
     position: sticky;
     top: 0;
 }
@@ -88,6 +87,11 @@ hr.header {
     width: 95%;
 }
 
+hr.bottom-divider {
+    border-top: 2px solid gray;
+    width: 95%;
+}
+
 .top-info.with-image {
     background-color: gray;
     display:block;
@@ -95,4 +99,26 @@ hr.header {
     background-image: url("images/gray\ star\ bg.gif");
     opacity: 0.5;
     height: 30px;
+}
+
+/*TAG STYLING*/
+.tags {
+    font-weight: bold;
+    color: gray;
+}
+a:link {
+    text-decoration: none;
+    color: gray;
+}
+a:visited {
+    text-decoration: none;
+    color: rgb(253, 127, 148);
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(255, 73, 103);
+}
+a:active {
+    text-decoration: none;
+    color: rgb(253, 127, 148);
 }
